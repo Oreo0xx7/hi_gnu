@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btn_test = findViewById(R.id.btn_move_on);
-
+//commit test
     }
 }
