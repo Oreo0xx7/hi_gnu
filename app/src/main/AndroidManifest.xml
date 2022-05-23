@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HiGNU">
         <activity
+            android:name=".MenuCategory"
+            android:exported="false"
+            android:label="@string/title_activity_menu_category"
+            android:theme="@style/Theme.HiGNU.NoActionBar" />
+        <activity
+            android:name=".Category"
+            android:exported="false" />
+        <activity
             android:name=".OffMain"
             android:exported="false" />
         <activity
@@ -17,9 +25,10 @@
             android:exported="false" />
         <activity
             android:name=".Loading"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
