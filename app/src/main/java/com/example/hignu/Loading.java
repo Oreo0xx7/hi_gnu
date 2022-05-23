@@ -47,6 +47,6 @@ public class Loading extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "HIGNU by Team.smarter", Toast.LENGTH_SHORT).show();
             }
         });
-
+        //브런치 생성
     }
 }
