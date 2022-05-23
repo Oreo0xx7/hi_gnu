@@ -3,6 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Loading">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+    <Button
+        android:id="@+id/btn_move_on"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Using Online" />
+
+    <Button
+        android:id="@+id/btn_move_off"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Using Offline" />
 
 </LinearLayout>
