@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#FFFFFF"
+    android:id="@+id/drawer"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_menu_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbHorizontal="@android:drawable/bottom_bar"
+        android:text="Close Menu Category"
+        />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginTop="5dp"
+        android:background="#4AC2F8"
+        android:gravity="center"
+        android:text="Location"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_location_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Inside of GNU" />
+
+    <Button
+        android:id="@+id/btn_location_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Outside of GNU" />
+
+    <Button
+        android:id="@+id/btn_location_3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Travel" />
+
+    <Button
+        android:id="@+id/btn_tip"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#4AC2F8"
+        android:gravity="center"
+        android:text="Tip"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_tip_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Application" />
+
+    <Button
+        android:id="@+id/btn_tip_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Studying Korean" />
+
+    <Button
+        android:id="@+id/btn_tip_3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- For Beginner" />
+
+    <Button
+        android:id="@+id/btn_notice"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#4AC2F8"
+        android:gravity="center"
+        android:text="Notice"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_notice_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Notice of GNU" />
+
+    <Button
+        android:id="@+id/btn_notice_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Annual calendar" />
+
+    <Button
+        android:id="@+id/btn_support"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#4AC2F8"
+        android:gravity="center"
+        android:text="Support"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_support_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="- Feedback Board" />
+
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Notice" />
+
+    </LinearLayout>
+ -->
+</LinearLayout>

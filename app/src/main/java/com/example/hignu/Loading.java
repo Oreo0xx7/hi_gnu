@@ -19,14 +19,12 @@ public class Loading extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
 
-        //intent
         btn_move_on = findViewById(R.id.btn_move_on);
         btn_move_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent_on = new Intent(Loading.this, OnMain.class);
                 startActivity(intent_on);
-        // intent_end
 
             }
         });
@@ -47,6 +45,6 @@ public class Loading extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "HIGNU by Team.smarter", Toast.LENGTH_SHORT).show();
             }
         });
-        //브런치 생성
+
     }
 }

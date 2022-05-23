@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="온라인 메인 페이지 도착"
+        android:text="오프라인 메인 페이지 도착"
         />
 
 </LinearLayout>

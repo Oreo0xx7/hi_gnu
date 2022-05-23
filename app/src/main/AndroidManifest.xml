@@ -10,12 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HiGNU">
         <activity
-            android:name=".MenuCategory"
-            android:exported="false"
-            android:label="@string/title_activity_menu_category"
-            android:theme="@style/Theme.HiGNU.NoActionBar" />
+            android:name=".Notice1"
+            android:exported="false" />
         <activity
-            android:name=".Category"
+            android:name=".Application1"
+            android:exported="false" />
+        <activity
+            android:name=".InsideOfGNU1"
             android:exported="false" />
         <activity
             android:name=".OffMain"
