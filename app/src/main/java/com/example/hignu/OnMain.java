@@ -3,6 +3,7 @@ package com.example.hignu;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class OnMain extends AppCompatActivity {
+
+    private FloatingActionButton fab_chat;
 
     private Button btn_location;
     private Button btn_tip;
@@ -39,8 +42,18 @@ public class OnMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_on_main);
 
+        fab_chat = findViewById(R.id.fab_chat);
+        fab_chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent_chat = new Intent(OnMain.this, Chatbot.class);
+                startActivity(intent_chat);
+            }
+        });
+
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         drawerView = (View)findViewById(R.id.drawer);
+
 
         btn_menu = (ImageButton)findViewById(R.id.btn_menu);
         btn_menu.setOnClickListener(new View.OnClickListener() {
