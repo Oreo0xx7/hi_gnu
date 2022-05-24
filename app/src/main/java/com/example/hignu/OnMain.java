@@ -4,11 +4,14 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 
@@ -36,11 +39,19 @@ public class OnMain extends AppCompatActivity {
 
     ImageButton btn_menu;
 
+    AdapterBanner adapterbanner;
+    ViewPager viewPager;
+
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_on_main);
+
+        viewPager = (ViewPager) findViewById(R.id.banner);
+        adapterbanner = new AdapterBanner(this);
+        viewPager.setAdapter((PagerAdapter) adapterbanner);
+
 
         fab_chat = findViewById(R.id.fab_chat);
         fab_chat.setOnClickListener(new View.OnClickListener() {
