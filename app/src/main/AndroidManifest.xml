@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HiGNU">
         <activity
+            android:name=".OffCategory6"
+            android:exported="false" />
+        <activity
+            android:name=".OffCategory5"
+            android:exported="false" />
+        <activity
+            android:name=".OffCategory4"
+            android:exported="false" />
+        <activity
+            android:name=".OffCategory3"
+            android:exported="false" />
+        <activity
+            android:name=".OffCategory2"
+            android:exported="false" />
+        <activity
             android:name=".OffCategory1"
             android:exported="false" />
         <activity

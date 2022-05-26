@@ -41,14 +41,13 @@
 
 
     <TextView
-        android:id="@+id/tv_off_inform1"
+        android:id="@+id/tv_off_inform5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1st Category"
+        android:text="5th Category"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
-
 
 </android.support.constraint.ConstraintLayout>

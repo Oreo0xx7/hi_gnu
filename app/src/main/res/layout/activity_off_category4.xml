@@ -39,12 +39,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
-
     <TextView
-        android:id="@+id/tv_off_inform1"
+        android:id="@+id/tv_off_inform4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1st Category"
+        android:text="4th Category"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
