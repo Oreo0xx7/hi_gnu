@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HiGNU">
         <activity
+            android:name=".Notice"
+            android:exported="false" />
+        <activity
+            android:name=".Tip"
+            android:exported="false" />
+        <activity
+            android:name=".Location"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackList"
+            android:exported="false" />
+        <activity
             android:name=".OffCategory6"
             android:exported="false" />
         <activity
@@ -31,15 +43,6 @@
             android:exported="false" />
         <activity
             android:name=".FeedbackViewing"
-            android:exported="false" />
-        <activity
-            android:name=".Notice1"
-            android:exported="false" />
-        <activity
-            android:name=".Application1"
-            android:exported="false" />
-        <activity
-            android:name=".InsideOfGNU1"
             android:exported="false" />
         <activity
             android:name=".FeedbackWriting"

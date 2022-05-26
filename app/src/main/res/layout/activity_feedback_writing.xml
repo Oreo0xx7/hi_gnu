@@ -6,6 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".FeedbackWriting">
 
+    <ImageButton
+        android:id="@+id/img_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="#FFFFFF"
+        android:tint="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_lo_support"
+        app:layout_constraintEnd_toStartOf="@+id/tv_lo_support"
+        app:layout_constraintStart_toStartOf="@+id/tv_fd"
+        app:layout_constraintTop_toTopOf="@+id/tv_lo_support"
+        app:srcCompat="@android:drawable/stat_sys_headset" />
+
+    <TextView
+        android:id="@+id/tv_lo_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_fd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Feedback Board"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/et_fd_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_fd_title"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fd"
+        app:layout_constraintStart_toStartOf="@+id/tv_fd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fd" />
+
     <EditText
         android:id="@+id/et_fd_title"
         android:layout_width="363dp"
@@ -31,6 +78,17 @@
         app:layout_constraintStart_toStartOf="@+id/et_fd_title"
         app:layout_constraintTop_toBottomOf="@+id/et_fd_title" />
 
+    <RadioButton
+        android:id="@+id/fd_secret"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Secret Posting"
+        app:layout_constraintEnd_toEndOf="@+id/et_fd_nick"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_fd_nick"
+        app:layout_constraintTop_toBottomOf="@+id/et_fd_nick" />
+
     <EditText
         android:id="@+id/et_fd_con"
         android:layout_width="0dp"
@@ -45,17 +103,6 @@
         app:layout_constraintStart_toStartOf="@+id/fd_secret"
         app:layout_constraintTop_toBottomOf="@+id/fd_secret" />
 
-    <RadioButton
-        android:id="@+id/fd_secret"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Secret Posting"
-        app:layout_constraintEnd_toEndOf="@+id/et_fd_nick"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/et_fd_nick"
-        app:layout_constraintTop_toBottomOf="@+id/et_fd_nick" />
-
     <Button
         android:id="@+id/btn_new_feed"
         android:layout_width="163dp"
@@ -66,52 +113,5 @@
         app:layout_constraintEnd_toEndOf="@+id/et_fd_con"
         app:layout_constraintStart_toStartOf="@+id/et_fd_con"
         app:layout_constraintTop_toBottomOf="@+id/et_fd_con" />
-
-    <TextView
-        android:id="@+id/tv_fd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Feedback Board"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/et_fd_title"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_lo_support"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Support"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv_fd"
-        app:layout_constraintEnd_toEndOf="@+id/tv_fd"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/img_support"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
-        android:tint="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_lo_support"
-        app:layout_constraintEnd_toStartOf="@+id/tv_lo_support"
-        app:layout_constraintStart_toStartOf="@+id/tv_fd"
-        app:layout_constraintTop_toTopOf="@+id/tv_lo_support"
-        app:srcCompat="@android:drawable/stat_sys_headset" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="40dp"
-        android:layout_height="1dp"
-        android:layout_marginBottom="16dp"
-        android:background="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/et_fd_title"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_fd" />
 
 </android.support.constraint.ConstraintLayout>

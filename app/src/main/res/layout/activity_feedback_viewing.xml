@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FeedbackViewing">
+    tools:context=".FeedbackWriting">
 
     <ImageButton
         android:id="@+id/img_support"
@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="@+id/tv_fd"
         app:layout_constraintTop_toTopOf="@+id/tv_lo_support"
         app:srcCompat="@android:drawable/stat_sys_headset" />
+
     <TextView
         android:id="@+id/tv_lo_support"
         android:layout_width="wrap_content"
@@ -28,6 +29,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tv_fd"
         app:layout_constraintEnd_toEndOf="@+id/tv_fd"
         app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/tv_fd"
         android:layout_width="wrap_content"
@@ -42,12 +44,101 @@
 
     <View
         android:id="@+id/divider"
-        android:layout_width="40dp"
+        android:layout_width="0dp"
         android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/et_fd_title"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fd"
+        app:layout_constraintStart_toStartOf="@+id/tv_fd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fd" />
+
+    <TextView
+        android:id="@+id/et_fd_title"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:text='Sample Title'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_fd" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/et_fd_nick"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="manager"
+        app:layout_constraintEnd_toEndOf="@+id/et_fd_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_fd_title"
+        app:layout_constraintTop_toBottomOf="@+id/et_fd_title" />
+
+
+    <TextView
+        android:id="@+id/et_fd_con"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:text="Complain Text"
+        app:layout_constraintEnd_toEndOf="@+id/et_fd_nick"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_fd_nick"
+        app:layout_constraintTop_toBottomOf="@+id/et_fd_nick" />
+
+    <Button
+        android:id="@+id/btn_close_feed"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:text="Close"
+        app:layout_constraintEnd_toEndOf="@+id/et_fd_con"
+        app:layout_constraintStart_toStartOf="@+id/et_fd_con"
+        app:layout_constraintTop_toBottomOf="@+id/et_fd_con" />
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Please write your comment."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        app:layout_constraintBottom_toBottomOf="@+id/et_comment"
+        app:layout_constraintEnd_toEndOf="@+id/divider3"
+        app:layout_constraintTop_toTopOf="@+id/et_comment" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="@+id/et_fd_con"
+        app:layout_constraintStart_toStartOf="@+id/et_fd_con"
+        app:layout_constraintTop_toBottomOf="@+id/btn_close_feed" />
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="- Sample Comment"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/et_comment"
+        tools:layout_editor_absoluteY="417dp" />
 
 
 </android.support.constraint.ConstraintLayout>
