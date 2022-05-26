@@ -1,16 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OffMain">
 
-    <TextView
+    <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:text="오프라인 메인 페이지 도착"
-        />
+        android:layout_marginTop="8dp"
+        android:background="#00FFFFFF"
+        android:tint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
 
-</LinearLayout>
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="@+id/tv_off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <TextView
+        android:id="@+id/tv_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Offline mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+
+    <ImageView
+        android:id="@+id/off_cate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/off_cate2"
+        android:src="@drawable/off_cate1" />
+
+    <ImageView
+        android:id="@+id/off_cate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_off"
+        android:src="@drawable/off_cate2" />
+
+    <ImageView
+        android:id="@+id/off_cate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/off_cate1"
+        app:layout_constraintTop_toTopOf="@+id/off_cate4"
+        android:src="@drawable/off_cate2" />
+
+    <ImageView
+        android:id="@+id/off_cate4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate2"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate2"
+        android:src="@drawable/off_cate2" />
+
+    <ImageView
+        android:id="@+id/off_cate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/off_cate3"
+        app:layout_constraintTop_toTopOf="@+id/off_cate6"
+        android:src="@drawable/off_cate2" />
+
+    <ImageView
+        android:id="@+id/off_cate6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate4"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate4"
+        android:src="@drawable/off_cate2" />
+
+    <TextView
+        android:id="@+id/tv_off_cate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Beginer"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate1"
+        app:layout_constraintStart_toStartOf="@+id/off_cate1"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate1" />
+
+    <TextView
+        android:id="@+id/tv_off_cate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate2"
+        app:layout_constraintStart_toStartOf="@+id/off_cate2"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate2" />
+
+    <TextView
+        android:id="@+id/tv_off_cate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate3"
+        app:layout_constraintStart_toStartOf="@+id/off_cate3"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate3" />
+
+    <TextView
+        android:id="@+id/tv_off_cate4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate4"
+        app:layout_constraintStart_toStartOf="@+id/off_cate4"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate4" />
+
+    <TextView
+        android:id="@+id/tv_off_cate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate5"
+        app:layout_constraintStart_toStartOf="@+id/off_cate5"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate5" />
+
+    <TextView
+        android:id="@+id/tv_off_cate6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        app:layout_constraintEnd_toEndOf="@+id/off_cate6"
+        app:layout_constraintStart_toStartOf="@+id/off_cate6"
+        app:layout_constraintTop_toBottomOf="@+id/off_cate6" />
+
+</android.support.constraint.ConstraintLayout>
