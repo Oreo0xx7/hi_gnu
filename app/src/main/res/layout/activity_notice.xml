@@ -46,7 +46,7 @@
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="14dp"
-            android:background="@color/fab_color"
+            android:background="@color/back_color"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
             android:layout_marginTop="8dp"
@@ -77,6 +77,13 @@
             android:orientation="vertical"
             android:id="@+id/notice">
 
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/noticeListView"
+            android:layout_margin="10dp"
+            android:dividerHeight="10dp"
+            android:divider="#ffffff"></ListView>
         </LinearLayout>
 
         <RelativeLayout
