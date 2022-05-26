@@ -146,6 +146,15 @@ public class OnMain extends AppCompatActivity {
             }
         });
 
+        btn_support = findViewById(R.id.btn_support);
+        btn_support.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(OnMain.this, FeedbackWriting.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
