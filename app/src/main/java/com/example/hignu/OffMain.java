@@ -25,5 +25,50 @@ public class OffMain extends AppCompatActivity {
             }
         });
 
+        off_cate2 = (ImageView)findViewById(R.id.off_cate2);
+        off_cate2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OffMain.this, OffCategory2.class);
+                startActivity(intent);
+            }
+        });
+
+        off_cate3 = (ImageView)findViewById(R.id.off_cate3);
+        off_cate3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OffMain.this, OffCategory3.class);
+                startActivity(intent);
+            }
+        });
+
+        off_cate4 = (ImageView)findViewById(R.id.off_cate4);
+        off_cate4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OffMain.this, OffCategory4.class);
+                startActivity(intent);
+            }
+        });
+
+        off_cate5 = (ImageView)findViewById(R.id.off_cate5);
+        off_cate5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OffMain.this, OffCategory5.class);
+                startActivity(intent);
+            }
+        });
+
+        off_cate6 = (ImageView)findViewById(R.id.off_cate6);
+        off_cate6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OffMain.this, OffCategory6.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
