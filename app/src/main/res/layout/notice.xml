@@ -14,13 +14,13 @@
         android:id="@+id/notice_title"
         android:drawableStart="@drawable/ic_notice"
         android:drawableLeft="@drawable/ic_notice"
-        android:background="#7D7BFF"
+        android:background="@color/gnu_blue"
         android:textStyle="bold"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#C2C2FF">
+        android:background="@color/gnu_grey">
 
         <TextView
             android:layout_width="wrap_content"

@@ -45,6 +45,7 @@ public class Notice extends AppCompatActivity {
         btn_not1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 notice.setVisibility(View.VISIBLE);
                 btn_not1.setBackgroundColor(getResources().getColor(R.color.back_color));
                 btn_not2.setBackgroundColor(getResources().getColor(R.color.fab_color));
@@ -59,6 +60,7 @@ public class Notice extends AppCompatActivity {
         btn_not2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 notice.setVisibility(View.GONE);
                 btn_not2.setBackgroundColor(getResources().getColor(R.color.back_color));
                 btn_not1.setBackgroundColor(getResources().getColor(R.color.fab_color));
@@ -67,8 +69,8 @@ public class Notice extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.fragment_notice, new CalendarFragment());
                 fragmentTransaction.commit();
             }
-        });
 
+        });
 
     }
 }

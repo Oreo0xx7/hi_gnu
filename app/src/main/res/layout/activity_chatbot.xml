@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/back_color"
+    android:background="@color/gnu_dark"
     tools:context=".Chatbot">
 
     <android.support.v7.widget.RecyclerView
@@ -42,7 +42,7 @@
             android:layout_alignParentRight="true"
             android:layout_margin="4dp"
             android:src="@drawable/ic_send"
-            app:backgroundTint="@color/fab_color"
+            app:backgroundTint="@color/gnu_blue"
             app:fabCustomSize="45dp"
             app:tint="@color/white"
             />

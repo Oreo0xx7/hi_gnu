@@ -13,28 +13,21 @@ import android.view.ViewGroup;
  */
 public class CalendarFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     public CalendarFragment() {
-        // Required empty public constructor
+
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CalendarFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+//    private ListView calendarListView;
+//    private CalendarListAdapter calendar_adapter;
+//    private List<CalendarClass> calendarClassList;
+
+
     public static CalendarFragment newInstance(String param1, String param2) {
         CalendarFragment fragment = new CalendarFragment();
         Bundle args = new Bundle();
@@ -47,6 +40,7 @@ public class CalendarFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -56,7 +50,24 @@ public class CalendarFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        View v = inflater.inflate(R.layout.fragment_calendar, container, false);
+
+//        calendarListView = (ListView)v.findViewById(R.id.calendarListView);
+//        calendarClassList = new ArrayList<CalendarClass>();
+//        calendarClassList.add(new CalendarClass("Labor Day (Holiday)", "2022-05-01"));
+//        calendarClassList.add(new CalendarClass("Teaching practice for 4 week", "2022-05-02 ~ 2022-05-27"));
+//        calendarClassList.add(new CalendarClass("Three quarters of 1st semester", "2022-05-20"));
+//        calendarClassList.add(new CalendarClass("Club festival", "2022-05-26 ~ 2022-05-26"));
+//        calendar_adapter = new CalendarListAdapter(getContext().getApplicationContext(), calendarClassList);
+//        calendarListView.setAdapter(calendar_adapter);
+
+
+
         return inflater.inflate(R.layout.fragment_calendar, container, false);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 }

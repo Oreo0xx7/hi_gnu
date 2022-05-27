@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
+    android:background="@color/white"
     tools:context=".OnMain">
 
     <android.support.constraint.ConstraintLayout
@@ -16,7 +17,7 @@
             android:id="@+id/btn_menu"
             android:layout_width="55dp"
             android:layout_height="55dp"
-            android:background="#00FFFFFF"
+            android:background="#FFFFFF"
             android:clickable="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_margin="1dp"
-            app:backgroundTint="#2196F3"
+            app:backgroundTint="@color/gnu_blue"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.954"
@@ -60,7 +61,6 @@
             android:id="@+id/banner"
             android:layout_width="match_parent"
             android:layout_height="241dp"
-            android:padding="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".FeedbackList">
 
     <LinearLayout
@@ -48,7 +49,7 @@
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:textSize="14dp"
-            android:background="@color/fab_color"
+            android:background="@color/gnu_blue"
             android:layout_marginRight="16dp"
             android:layout_marginTop="4dp"
             />
