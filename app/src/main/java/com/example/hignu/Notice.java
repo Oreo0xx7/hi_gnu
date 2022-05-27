@@ -34,6 +34,13 @@ public class Notice extends AppCompatActivity {
         final Button btn_not1 = (Button) findViewById(R.id.btn_not1);
         final Button btn_not2 = (Button) findViewById(R.id.btn_not2);
         final LinearLayout notice = (LinearLayout) findViewById(R.id.notice);
+        notice.setVisibility(View.VISIBLE);
+        btn_not1.setBackgroundColor(getResources().getColor(R.color.back_color));
+        btn_not2.setBackgroundColor(getResources().getColor(R.color.fab_color));
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_notice, new NoticeFragment());
+        fragmentTransaction.commit();
 
         btn_not1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -42,12 +42,6 @@
             android:name=".OffCategory1"
             android:exported="false" />
         <activity
-            android:name=".FeedbackViewing"
-            android:exported="false" />
-        <activity
-            android:name=".FeedbackWriting"
-            android:exported="false" />
-        <activity
             android:name=".OffMain"
             android:exported="false" />
         <activity

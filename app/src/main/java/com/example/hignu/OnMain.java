@@ -24,15 +24,6 @@ public class OnMain extends AppCompatActivity {
     private Button btn_notice;
     private Button btn_support;
 
-    private Button btn_location_1;
-    private Button btn_location_2;
-    private Button btn_location_3;
-    private Button btn_tip_1;
-    private Button btn_tip_2;
-    private Button btn_tip_3;
-    private Button btn_notice_1;
-    private Button btn_notice_2;
-    private Button btn_support_1;
 
     private DrawerLayout drawerLayout;
     private View drawerView;
@@ -101,14 +92,6 @@ public class OnMain extends AppCompatActivity {
             }
         });
 
-        btn_location_1 = findViewById(R.id.btn_location_1);
-        btn_location_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Location.class);
-                startActivity(intent_off);
-            }
-        });
 
         btn_tip = findViewById(R.id.btn_tip);
         btn_tip.setOnClickListener(new View.OnClickListener() {
@@ -119,14 +102,6 @@ public class OnMain extends AppCompatActivity {
             }
         });
 
-        btn_tip_1 = findViewById(R.id.btn_tip_1);
-        btn_tip_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Tip.class);
-                startActivity(intent_off);
-            }
-        });
 
         btn_notice = findViewById(R.id.btn_notice);
         btn_notice.setOnClickListener(new View.OnClickListener() {
@@ -137,23 +112,6 @@ public class OnMain extends AppCompatActivity {
             }
         });
 
-        btn_notice_1 = findViewById(R.id.btn_notice_1);
-        btn_notice_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Notice.class);
-                startActivity(intent_off);
-            }
-        });
-
-        btn_notice_2 = findViewById(R.id.btn_notice_2);
-        btn_notice_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(OnMain.this, Notice.class);
-                startActivity(intent);
-            }
-        });
 
         btn_support = findViewById(R.id.btn_support);
         btn_support.setOnClickListener(new View.OnClickListener(){
@@ -163,17 +121,6 @@ public class OnMain extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        btn_support_1 = findViewById(R.id.btn_support_1);
-        btn_support_1.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(OnMain.this, FeedbackList.class);
-                startActivity(intent);
-            }
-        });
-
-
 
     }
 

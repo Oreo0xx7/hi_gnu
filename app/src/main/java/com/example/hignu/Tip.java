@@ -19,6 +19,14 @@ public class Tip extends AppCompatActivity {
         final Button btn_tip2 = (Button) findViewById(R.id.btn_tip2);
         final Button btn_tip3 = (Button) findViewById(R.id.btn_tip3);
         final LinearLayout tip = (LinearLayout) findViewById(R.id.tip);
+        tip.setVisibility(View.GONE);
+        btn_tip1.setBackgroundColor(getResources().getColor(R.color.back_color));
+        btn_tip2.setBackgroundColor(getResources().getColor(R.color.fab_color));
+        btn_tip3.setBackgroundColor(getResources().getColor(R.color.fab_color));
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_tip, new AppFragmentTip());
+        fragmentTransaction.commit();
 
         btn_tip1.setOnClickListener(new View.OnClickListener() {
             @Override
