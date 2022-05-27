@@ -96,7 +96,7 @@ public class OnMain extends AppCompatActivity {
         btn_location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, InsideOfGNU1.class);
+                Intent intent_off = new Intent(OnMain.this, Location.class);
                 startActivity(intent_off);
             }
         });
@@ -105,7 +105,7 @@ public class OnMain extends AppCompatActivity {
         btn_location_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, InsideOfGNU1.class);
+                Intent intent_off = new Intent(OnMain.this, Location.class);
                 startActivity(intent_off);
             }
         });
@@ -114,7 +114,7 @@ public class OnMain extends AppCompatActivity {
         btn_tip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Application1.class);
+                Intent intent_off = new Intent(OnMain.this, Tip.class);
                 startActivity(intent_off);
             }
         });
@@ -123,7 +123,7 @@ public class OnMain extends AppCompatActivity {
         btn_tip_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Application1.class);
+                Intent intent_off = new Intent(OnMain.this, Tip.class);
                 startActivity(intent_off);
             }
         });
@@ -132,7 +132,7 @@ public class OnMain extends AppCompatActivity {
         btn_notice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Notice1.class);
+                Intent intent_off = new Intent(OnMain.this, Notice.class);
                 startActivity(intent_off);
             }
         });
@@ -141,8 +141,17 @@ public class OnMain extends AppCompatActivity {
         btn_notice_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_off = new Intent(OnMain.this, Notice1.class);
+                Intent intent_off = new Intent(OnMain.this, Notice.class);
                 startActivity(intent_off);
+            }
+        });
+
+        btn_notice_2 = findViewById(R.id.btn_notice_2);
+        btn_notice_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OnMain.this, Notice.class);
+                startActivity(intent);
             }
         });
 
@@ -150,7 +159,16 @@ public class OnMain extends AppCompatActivity {
         btn_support.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(OnMain.this, FeedbackWriting.class);
+                Intent intent = new Intent(OnMain.this, FeedbackList.class);
+                startActivity(intent);
+            }
+        });
+
+        btn_support_1 = findViewById(R.id.btn_support_1);
+        btn_support_1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(OnMain.this, FeedbackList.class);
                 startActivity(intent);
             }
         });

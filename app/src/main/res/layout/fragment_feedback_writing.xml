@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackFragmentWriting">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_fd_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint='Please enter title.'
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_fd_nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Please enter your nickname."
+            android:inputType="textPersonName" />
+
+        <RadioButton
+            android:id="@+id/fd_secret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Secret Posting" />
+
+        <EditText
+            android:id="@+id/et_fd_con"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Please enter the contents."
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btn_new_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</FrameLayout>
