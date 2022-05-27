@@ -19,6 +19,14 @@ public class Location extends AppCompatActivity {
         final Button btn_loc2 = (Button) findViewById(R.id.btn_loc2);
         final Button btn_loc3 = (Button) findViewById(R.id.btn_loc3);
         final LinearLayout location = (LinearLayout) findViewById(R.id.location);
+        location.setVisibility(View.GONE);
+        btn_loc1.setBackgroundColor(getResources().getColor(R.color.back_color));
+        btn_loc2.setBackgroundColor(getResources().getColor(R.color.fab_color));
+        btn_loc3.setBackgroundColor(getResources().getColor(R.color.fab_color));
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_location, new InsideFragmentLocation());
+        fragmentTransaction.commit();
 
         btn_loc1.setOnClickListener(new View.OnClickListener() {
             @Override
