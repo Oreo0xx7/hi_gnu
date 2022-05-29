@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context=".CalendarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,14 +27,115 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:id="@+id/calendarList">
-
-                <ListView
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/calendarListView"
-                    android:layout_margin="10dp"
-                    android:dividerHeight="10dp"
-                    android:divider="#ffffff"></ListView>
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Labor Day (Holiday)"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:background="@color/gnu_blue"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gnu_grey">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2022-05-01"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Teaching practice for 4 week"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:background="@color/gnu_blue"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gnu_grey">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2022-05-02 ~ 2022-05-27"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Three quarters of 1st semester"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:background="@color/gnu_blue"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gnu_grey">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2022-05-20"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Club festival"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawableLeft="@drawable/ic_calendar"
+                    android:background="@color/gnu_blue"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gnu_grey">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2022-05-26 ~ 2022-05-26"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_marginLeft="4dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+                </LinearLayout>
+
             </LinearLayout>
 
             <RelativeLayout

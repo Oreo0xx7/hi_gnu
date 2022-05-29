@@ -5,10 +5,95 @@
     android:layout_height="match_parent"
     tools:context=".KorFragmentTip">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Studying Korean Tip" />
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/write_it"
+            android:drawableLeft="@drawable/write_it"
+
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  Write it! Korean"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Application"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| Studying Korean Character"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/book1"
+            android:drawableLeft="@drawable/book1"
+
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  chaltteog hangug-eo"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Book"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/nameText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| Studying Korean Speaking Expression"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/dateText"/>
+
+        </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>

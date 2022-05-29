@@ -6,10 +6,216 @@
     android:background="@color/white"
     tools:context=".AppFragmentTip">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Application Tip" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/klok"
+            android:drawableLeft="@drawable/klok"
+
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  klok"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Widget"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/nameText"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| World Time Translator Widget"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:id="@+id/dateText"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:drawableStart="@drawable/alami"
+            android:drawableLeft="@drawable/alami"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  Alarmi"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Alarm"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| Alarm mission"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:drawableStart="@drawable/eta"
+            android:drawableLeft="@drawable/eta"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  EveryTime"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Community"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| School community"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:drawableStart="@drawable/bus_jinju"
+            android:drawableLeft="@drawable/bus_jinju"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  JinJu Bus Information"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="App"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| Transportation"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@color/gnu_blue"
+            android:drawableStart="@drawable/gnu_chul"
+            android:drawableLeft="@drawable/gnu_chul"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="  GNU Attendance"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gnu_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="App"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="| Attendance"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </FrameLayout>

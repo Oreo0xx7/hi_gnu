@@ -5,6 +5,156 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".InsideFragmentLocation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_class"></ImageButton>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_house"></ImageButton>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_book"></ImageButton>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Lecture\nBuilding"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Dormitory"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Library"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_breakfast"></ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_restaurant"></ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_shopping_basket_24"></ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Lounge"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Cafeteria"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Convenient\nStore"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_local_activity_24"></ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_directions_bus_24"></ImageButton>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_add_24"></ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Club\nRoom"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="BusStop"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 </FrameLayout>

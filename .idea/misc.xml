@@ -27,14 +27,14 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_notice.xml" value="0.2" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_notice1.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_notice_calendar.xml" value="0.33" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category1.xml" value="0.11392405063291139" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category1.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category2.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category3.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category4.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category5.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_category6.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_off_main.xml" value="0.356401384083045" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_on_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_on_main.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_sub.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/activity_tip.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/app_bar_menu.xml" value="0.19635416666666666" />
@@ -44,15 +44,15 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/content_menu_category.xml" value="0.3515625" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/feedback_list_view.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_app_tip.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_begin_tip.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_begin_tip.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_calendar.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_feedback_list.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_feedback_view.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_feedback_writing.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_gallery.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_home.xml" value="0.19635416666666666" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_inside_location.xml" value="0.16" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_kor_tip.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_inside_location.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_kor_tip.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_notice.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_outside_location.xml" value="0.35052083333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HiGNU/app/src/main/res/layout/fragment_slideshow.xml" value="0.19635416666666666" />

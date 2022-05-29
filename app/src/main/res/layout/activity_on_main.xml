@@ -70,6 +70,79 @@
 
     </android.support.constraint.ConstraintLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="320dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_image_24"
+                />
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_image_24"
+                />
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/ic_baseline_image_24"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Residential Information"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Transportation"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Recommended Book"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Welcome to Korea,\nand GNU."
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
     <include layout = "@layout/activity_drawer_menu" />
 
 
